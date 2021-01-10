@@ -1,4 +1,4 @@
-.App {
+header {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.navbar-item {
+  padding: 10px;
+}
+
+.navbar-item:hover {
+  background-color: lightseagreen;
+}
+
+.pad1 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+img {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.images {
+  text-align: center;
 }
