@@ -14,6 +14,7 @@ function App() {
       <Gallery />
       <Flavours />
       <Shops />
+      <Navbar />
     </div>
   );
 }
