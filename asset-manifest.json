@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-mooc/static/css/main.3b5b18e4.chunk.css",
+    "main.js": "/react-mooc/static/js/main.635250e4.chunk.js",
+    "main.js.map": "/react-mooc/static/js/main.635250e4.chunk.js.map",
+    "runtime-main.js": "/react-mooc/static/js/runtime-main.e60697b9.js",
+    "runtime-main.js.map": "/react-mooc/static/js/runtime-main.e60697b9.js.map",
+    "static/js/2.eb186a43.chunk.js": "/react-mooc/static/js/2.eb186a43.chunk.js",
+    "static/js/2.eb186a43.chunk.js.map": "/react-mooc/static/js/2.eb186a43.chunk.js.map",
+    "static/js/3.c6650b30.chunk.js": "/react-mooc/static/js/3.c6650b30.chunk.js",
+    "static/js/3.c6650b30.chunk.js.map": "/react-mooc/static/js/3.c6650b30.chunk.js.map",
+    "index.html": "/react-mooc/index.html",
+    "static/css/main.3b5b18e4.chunk.css.map": "/react-mooc/static/css/main.3b5b18e4.chunk.css.map",
+    "static/js/2.eb186a43.chunk.js.LICENSE.txt": "/react-mooc/static/js/2.eb186a43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e60697b9.js",
+    "static/js/2.eb186a43.chunk.js",
+    "static/css/main.3b5b18e4.chunk.css",
+    "static/js/main.635250e4.chunk.js"
+  ]
+}
