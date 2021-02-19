@@ -2,9 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+To run this project, you'll need npm. [Here's how to install it](https://www.npmjs.com/get-npm).
+
+## Running this project on your computer
+
+Navigate to your project directory in your terminal. From here you can run:
+
+### `npm install`
+
+Installs all the dependencies your project needs.
+
+Dependencies are libraries and modules created by other developers that this project depends on.
 
 ### `npm start`
 
@@ -12,7 +22,15 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You will also see any lint errors in the console. (lint errors are inconsistencies with the formatting of your code)
+
+## Deployment
+
+[How to deploy a React site to GitHub pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).
+
+[React docs on deployment](https://facebook.github.io/create-react-app/docs/deployment).
+
+## Other available scripts
 
 ### `npm test`
 
@@ -53,18 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
+## Troubleshooting: `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
