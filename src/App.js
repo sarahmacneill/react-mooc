@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <header>
-        <h1>Sarah's Ice Cream React Site</h1>
+        <h1>Welcome to my Ice Cream React Site! &#128523;</h1>
       </header>
       <Gallery />
       <Flavours />

@@ -4,7 +4,7 @@ class Shops extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            list: ["Janetta's Gelataria", "Dairy Queen", "Luca's Gelato"], 
+            list: ["Janetta's Gelataria", "Dairy Queen", "Luca's Gelato", "La Fraiseraie"],
             item: ''
         };
         this.handleChange = this.handleChange.bind(this);
@@ -18,7 +18,7 @@ class Shops extends React.Component {
     handleSubmit(event) {
         this.setState(previousState => ({
             list: [...previousState.list, this.state.item]
-        }));    
+        }));
         event.preventDefault();
     }
 
@@ -32,9 +32,9 @@ class Shops extends React.Component {
                 </ul>
 
                 <form onSubmit={this.handleSubmit}>
-                    <label>Add a place:</label>
-                    <input value={this.state.value} onChange={this.handleChange} />    
-                    <button type="submit">+ add</button>     
+                    <label>Add a place: </label>
+                    <input value={this.state.value} onChange={this.handleChange} />
+                    <button type="submit">+ add</button>
                 </form>
             </div>
         );
