@@ -1,8 +1,9 @@
 # About this Project
 
-This project is a simple React site that was created for teaching/demonstration purposes. The site is hosted on GitHub pages. You can see it live [here](https://sarahmacneill.github.io/react-mooc/).
+This project is a simple React site that was created for teaching/demonstration purposes by Sarah Mac Neill.
+I've been adding some changes. The site is hosted on GitHub pages. You can see it live [here]().
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Running this project on your computer
 

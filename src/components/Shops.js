@@ -4,7 +4,7 @@ class Shops extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            list: ["La Fraiseraie", "Janetta's Gelataria", "Dairy Queen", "Luca's Gelato"],
+            list: ["La Fraiseraie", "Ice Dream", "Amorino"],
             item: ''
         };
         this.handleChange = this.handleChange.bind(this);
