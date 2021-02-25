@@ -1,20 +1,21 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Flavours from './components/Flavours';
+import Toppings from './components/Toppings';
 import Shops from './components/Shops';
 import Gallery from './components/Gallery';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App" id="home">
+      <Navbar sticky="top" />
       <header>
-        <h1>Welcome to my Ice Cream React Site! &#128523;</h1>
+        <h1>Welcome to the Little Cone Sunshine React Site! &#128523;</h1>
       </header>
       <Gallery />
       <Flavours />
+      <Toppings />
       <Shops />
-      <Navbar />
     </div>
   );
 }

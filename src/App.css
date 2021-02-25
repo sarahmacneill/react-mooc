@@ -38,16 +38,32 @@ header {
 }
 
 .navbar {
-  padding: 10px;
-  background-color: lightblue;
+    display: flex;
+    align-items: center;
+
+    background: #F1E16F;
+    font-family: Helvetica;
+    font-weight: 300;
 }
 
-.navbar-item {
-  padding: 10px;
+a.navbar-title {
+    margin-right: auto;
+    font-size: 200%;
+    padding: 12px 16px;
+    color: #706568;
+    text-decoration: none;
+}
+
+a.navbar-item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #706568;
+    text-decoration: none;
 }
 
 .navbar-item:hover {
-  background-color: lightseagreen;
+  color: #ee0847;
 }
 
 .pad1 {
@@ -62,5 +78,19 @@ img {
 }
 
 .images {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  color: #706568;
+}
+
+#select-toppings {
+  width: 30%;
+}
+
+.text-center {
   text-align: center;
 }
