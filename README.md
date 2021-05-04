@@ -1,7 +1,7 @@
 # About this Project
 
 This project is a simple React site that was created for teaching/demonstration purposes by Sarah Mac Neill.
-I've been adding some changes. The site is hosted on GitHub pages. You can see it live [here]().
+I've been adding some changes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
