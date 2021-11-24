@@ -1,44 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-class Shops extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            list: ["Janetta's Gelataria", "Dairy Queen", "Luca's Gelato"], 
-            item: ''
-        };
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+export default function Shops() {
+
+    const [list, setList] = useState(['Janetta\'s Gelataria', 'Dairy Queen', 'Luca\'s Gelato']);
+    const [item, setItem] = useState('');
+
+    function handleChange(event) {
+        setItem(event.target.value);
     }
 
-    handleChange(event) {
-        this.setState({item: event.target.value});
-    }
-
-    handleSubmit(event) {
-        this.setState(previousState => ({
-            list: [...previousState.list, this.state.item]
-        }));    
+    function handleSubmit(event) {
+        const listCopy = [...list];
+        listCopy.push(item);
+        setList(listCopy);
         event.preventDefault();
     }
 
-    render () {
-        return (
-            <div id="shops" className="page-break pad1">
-                <h2>Ice Cream Shops</h2>
-                <p>Use this as a place to note down your favourite places to get ice cream:</p>
-                <ul>
-                    {this.state.list.map(item => <li key={item}>{item}</li>)}
-                </ul>
-
-                <form onSubmit={this.handleSubmit}>
-                    <label>Add a place:</label>
-                    <input value={this.state.value} onChange={this.handleChange} />    
-                    <button type="submit">+ add</button>     
-                </form>
-            </div>
-        );
-    }
+    return (
+        <div id="shops" className="page-break pad1">
+            <h2>Ice Cream Shops</h2>
+            <p>Use this as a place to note down your favourite places to get ice cream:</p>
+            <ul>
+                {list.map(listItem => <li key={listItem}>{listItem}</li>)}
+            </ul>
+            
+            <form onSubmit={handleSubmit}>
+                <label>Add a place:</label>
+                <input value={item} onChange={handleChange} />
+                <button type="submit">+ add</button>
+            </form>
+        </div>
+    );
 }
-
-export default Shops;
